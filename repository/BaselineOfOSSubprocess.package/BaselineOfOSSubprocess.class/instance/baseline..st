@@ -12,11 +12,8 @@ baseline: spec
 			spec baseline: 'FFICHeaderExtractor' with: [
     			spec repository: 'github://marianopeck/FFICHeaderExtractor:master/repository' ].
 		
-			spec project: 'Unicode' with: [
-				spec
-					className: #ConfigurationOfUnicode;
-					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/Pharo/Unicode/main/' ].
+			spec baseline: 'Unicode' with: [
+				spec repository: 'github://feenkcom/pharo-unicode/repository' ].
 			
 			spec
 				group: 'Core' with: #( 'OSSubprocess' );
