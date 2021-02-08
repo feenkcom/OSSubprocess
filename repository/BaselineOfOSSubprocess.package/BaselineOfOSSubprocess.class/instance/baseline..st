@@ -10,7 +10,7 @@ baseline: spec
 				package: 'OSSubprocess-Tests-Stress' with: [ spec requires: 'OSSubprocess-Tests-Unit' ].
 			
 			spec baseline: 'FFICHeaderExtractor' with: [
-    			spec repository: 'github://marianopeck/FFICHeaderExtractor/repository' ].
+    			spec repository: 'github://pharo-contributions/FFICHeaderExtractor:v1.0.2/repository' ].
 		
 			spec baseline: 'Unicode' with: [
 				spec repository: 'github://feenkcom/pharo-unicode/repository' ].
