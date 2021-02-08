@@ -1,1 +1,1 @@
-{	"repositories" : {		"github://marianopeck/FFICHeaderExtractor/repository" : "9bc3957797a46a2d7ab213579c6c80737dc9db1d",		"github://feenkcom/pharo-unicode/repository" : "6e54f5390e016715733e2ff49c8fca864f4f9b21"	}}
+{	"repositories" : {		"github://feenkcom/pharo-unicode/repository" : "6e54f5390e016715733e2ff49c8fca864f4f9b21",		"github://pharo-contributions/FFICHeaderExtractor/repository" : "v1.0.2"	}}
