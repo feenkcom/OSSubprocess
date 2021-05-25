@@ -6,7 +6,7 @@ baseline: spec
 			baseline: 'FFICHeaderExtractor' with: [
 				spec repository: 'github://pharo-contributions/FFICHeaderExtractor:v1.0.2/repository' ];
 			baseline: 'Unicode' with: [
-				spec repository: 'github://feenkcom/pharo-unicode:6e54f5390e016715733e2ff49c8fca864f4f9b21/repository' ].
+				spec repository: 'github://feenkcom/pharo-unicode:v0.6.0/repository' ].
 		spec 
 			package: 'OSSubprocess' with: [
 				spec requires: #('FFICHeaderExtractor' ). ];
