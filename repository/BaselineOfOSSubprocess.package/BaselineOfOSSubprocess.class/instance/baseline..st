@@ -1,6 +1,9 @@
 baseline
 baseline: spec
 	<baseline>
+
+	self error: 'The master branch has been deprecated, please use main instead'.
+
 	spec
 		for: #pharo
 		do: [				
