@@ -13,7 +13,6 @@ shutDown: quitting
 				self terminate.
 				"To avoid problems..let's wait until we have the	exit status"
 				self waitForExitPolling.
-				pid := nil.
 			]
 			ifFalse: [ self stopWaiting ]
 	] 
