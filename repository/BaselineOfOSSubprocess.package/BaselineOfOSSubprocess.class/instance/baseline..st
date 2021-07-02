@@ -14,7 +14,7 @@ baseline: spec
     			spec repository: 'github://pharo-contributions/FFICHeaderExtractor:v1.0.2/repository' ].
 
 			spec baseline: 'Unicode' with: [
-				spec repository: 'github://pharo-contributions/pharo-unicode/src' ].
+				spec repository: 'github://feenkcom/pharo-unicode/src' ].
 
 			spec
 				group: 'Core' with: #( 'OSSubprocess' );
